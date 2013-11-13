@@ -1,18 +1,28 @@
-http://www.danneu.com/posts/15-a-simple-blog-with-sinatra-and-active-record-some-useful-tools/
-
-Tutorial: How to do a simple site on sinatra and active record, good for resources, instructions
+InstallFest
+  - install ruby, sinatra
+  - install github app
+  - sign up for github and heroku
 
 
 Topics:
+Git: 
+  - explain version control- DO NOT explain branches.
+  - use the github app to create their project folder
+  - demo how they can easily go back to work they've done in the past
+
+Command Line:
+  - ls, cd, pwd
+  - irb
+
 Ruby:
   - datatypes: string, integer, array
   - running code from a file
   - describe block syntax for each loops
-  - intro to ruby methods
+  - intro to ruby methods/classes
 
 Sinatra
   - start with very simple. Just do index.rb with get "/" do
-    - talk about HTTP actions (just go over get but maybe mention post as well?)
+    - talk about HTTP actions (just go over 'get')
 
   - print out something on our page
     - show how it only prints the last line
@@ -26,7 +36,6 @@ Sinatra
     - create topics and votes but not persisted, just static data
 
   - deploy to heroku
-    - learn a little bit of git.
     - go to heroku docs (find them from google) that show you how to deploy something on heroku
     - practice reading the docs
       - need config.ru
@@ -51,4 +60,8 @@ Sinatra
 
   - Votes
     - etc. etc. etc.
+
+Supplementary (for students who are ahead):
+  - point them to resources for self-study
+  - styling inline and/or with CSS
 
