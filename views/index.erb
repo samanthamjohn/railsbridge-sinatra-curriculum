@@ -1,11 +1,40 @@
 <html>
+<head>
+<title>Suggestotron</title>
+</head>
 <body>
-<h1> HELLO </h1>
-<% my_array.each do |array| %>
+<h1> Suggestotron</h1>
+
+<% topics.each do |topic| %>
   <ul>
-    <li><%= array.reverse %></li>
+    <li>
+    <%="<a href='/topics/#{topic.id}'>#{topic.title}</a>" %>
+  <br />
+  <%= topic.description %>
+  <%= topic.votes.count%>
+   votes
+  <br />
+
+  <%="
+  <form action=topics/#{topic.id}/vote method='post'>
+  "%>
+    <input type='submit' value='Vote for me!'/>
+  </form>
+  </li>
   </ul>
 <% end %>
 
+<h2> New</h2>
+<form action="/topics" method="post">
+<p>
+  <label for="post_title" />Title</label>
+  <input name='topic[title]' />
+</p>
+<p>
+  <label for="post_description" />Description</label>
+  <input name='topic[description]' />
+</p>
+  <input type="submit" value="Create Post" />
+</form>
 </body>
 </html>

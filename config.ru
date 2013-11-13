@@ -1,4 +1,5 @@
 # This is for heroku
+require "sinatra/activerecord"
 
 # Require the file you just wrote
 require './index'

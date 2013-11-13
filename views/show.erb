@@ -1,0 +1,20 @@
+<html>
+  <head>
+  <title><%=@topic.title%></title>
+  </head>
+  <body>
+  <a href="/">Back to Home</a>
+    <h1 style="color:royalblue">
+      TITLE: 
+      <%=@topic.title%>
+    </h1>
+    <p>
+    Description: 
+      <%=@topic.description%>
+    </p>
+    <p>
+    Number of Votes: 
+    <%= @topic.votes.count %>
+    </p>
+  </body>
+</html>
