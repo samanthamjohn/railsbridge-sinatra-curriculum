@@ -1,4 +1,18 @@
-InstallFest
+Misc Notes: 
+  - we should limit how much we use the command line, github app could be good for this
+  - having a windows VM or just windows machine we can switch into would be very helpful for many
+  - people were confused about the connection between ruby and rails in the curriculum, we should do as much of the ruby stuff as possible within the context of the sinatra app
+  - we should provide as many "real" resources as possible so they know where to find info after the workshop
+  - teach them about reading error messages, invaluable skill! 
+  - paper handouts/cheatsheets could be really helpful. I've seen this in kids classes and it's pretty helpful
+  - give room for advanced students to explore further, maybe have an optional portion at the end of each section or on the worksheets that points them to self-learning resources
+  - we should try to plan out the time and switches between when you lecture and when you give the students a chance to try things themselves, I know as a teacher I didn't have a ton of time to prepare and in the moment it can be hard to judge these things
+  - provide teachers with good examples to use. Physical analogs to coding concepts are always helpful. 
+  - Providing sample code for our students to copy could be helpful, especially for things like forms which are pretty finnicky. Maybe we can include comments in the sample code? 
+  - along those lines, maybe sample files to download could help, like downloading an html scaffold so you don't have to remember all that w3c stuff every time.
+
+
+InstallFest:
   - install ruby, sinatra
   - install github app
   - sign up for github and heroku
